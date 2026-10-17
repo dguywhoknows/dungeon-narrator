@@ -8,7 +8,7 @@ Live: https://dguywhoknows.github.io/text-adventure-engine/
 
 ## Overview
 
-Most AI text adventures let the model make up the rules, so stats drift and loot appears from nowhere. Dungeon Narrator splits the work: a deterministic engine generates a seeded maze dungeon and resolves all combat and traps with d20 dice, HP, AC, XP and inventory. The AI only narrates the facts it is handed. Free-form actions ("throw my torch at the cobwebs") are adjudicated by the AI as structured JSON, which the engine then clamps to fair bounds.
+Most AI text adventures let the model make up the rules, so stats drift and loot appears from nowhere. Lantern splits the work: a deterministic engine generates a seeded maze dungeon and resolves all combat and traps with d20 dice, HP, AC, XP and inventory. The AI only narrates the facts it is handed. Free-form actions ("throw my torch at the cobwebs") are adjudicated by the AI as structured JSON, which the engine then clamps to fair bounds.
 
 ## Pages
 
